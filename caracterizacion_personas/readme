@@ -1,0 +1,23 @@
+Requerimientos
+
+	#### Estas toca instalarlos 
+	cognitive_face
+	opencv-python
+	##### Estan ya estan instaladas por defecto
+	requests
+	os
+	sy
+	json
+	queue
+
+Funcionamiento
+
+Dentro del script characterization se encuntra la clase Characterization, y contiene los metodos:
+	
+	get_persons: Retorna una lista con las personas entrenadas en el grupo
+	add_person: Entrena una persona con nombre 'name' y la anade al grupo
+	delete_person: Elimina una persona con nombre 'name' del grupo
+	indentify_person: Toma una imagen e identifica la persona si esta en el grupo y si no lo 				  marca como desconocido
+	get_persons_attributes: Retorna los atributos de una persona entrenada anteriormente.
+
+	
