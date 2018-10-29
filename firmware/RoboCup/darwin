@@ -1,0 +1,15 @@
+#!/bin/bash
+while true
+do
+	cd /darwin-svn/Linux/project/RoboCup
+	sudo ./Robocup
+	out=$?
+	echo $out
+	if [ $out -eq 1 ] 
+	then
+		echo "Uno"
+	else
+		echo "Otro"	
+	fi	
+	sleep 1
+done
