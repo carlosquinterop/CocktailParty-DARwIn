@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+
+
+ <class>MainWindow</class>
+
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>215</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnPedidos">
+    <property name="geometry1">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pedidos</string>
+    </property>
+   </widget>
+
+
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnBartender">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>100</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="Bartender">
+     <string>Bartender</string>
+    </property>
+   </widget>s
+
+
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnAlternativasProductoFaltante">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>150</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="Alternativas">
+     <string>Alternativas Producto Faltante</string>
+    </property>
+   </widget>s
+
+   <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnClienteAlternativaReemplazo">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>200</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="Alternativas">
+     <string>Cliente Alternativa Reemplazo</string>
+    </property>
+   </widget>s
+
+   <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnBartenderAlterntivaReemplazo">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>250</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="Alternativas">
+     <string>Bartender Alternativa Reemplazo</string>
+    </property>
+   </widget>s
+
+   <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnTodosLosMetodos">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>300</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="Todos los metodos">
+     <string>Todos los métodos</string>
+    </property>
+   </widget>s
+
+   <widget class="QLineEdit" name="leText">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1</width>
+      <height>1</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>611</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+
+
+ <resources/>
+ <connections/>
+</ui>
